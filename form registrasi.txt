@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>form registrasi</title>
+</head>
+<body>
+<form action= "dataregistrasi.php" method = "post"
+<b>form registrasi</b>
+<br>
+<pre>
+Nama          : <input type = "text" name = "size = "25" maxlength = "50">
+Alamat        : <textarea rows = "10" cols = "40" name = "alamat"></textarea>
+Tempat lahir  : <input type = "text" name = "tempat" size = "25" maxlegth = "50">
+Tanggal lahir : <input type = "text" name = "tgl" size = "25" maxlegth = "50">
+</pre
+Jenis kelamin :
+<input type = "radio" name = "jns" value = "laki-laki"> laki-laki
+<input type = "radio" name = "jns" value = "perempuan"> perempuan
+<p>
+pekerjaan :
+<select name = "pekerjaan">
+<option> value = "-pilih-">
+<option> value = "S1"> S1
+<option> value = "S2"> S2
+<option> value = "S3"> S3
+<option> value = "D3"> D3
+<option> value = "lain-lain">lain-lain
+</select>
+<p>
+<input> type = "submit"><value = "submit"><input type = "reset" value = "Cancel">
+</form>
+</body>
+</html>
